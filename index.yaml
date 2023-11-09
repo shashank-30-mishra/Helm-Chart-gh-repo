@@ -1,0 +1,34 @@
+apiVersion: v1
+entries:
+  firstchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-09T23:33:30.56761646+01:00"
+    dependencies:
+    - import-values:
+      - child: primary.service
+        parent: postgresqlService
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - enabled
+      version: 16.0.0-debian-11-r13
+    description: A Helm chart for Kubernetes
+    digest: 92e3107e4cad31fa0d4c48d6e2b4d934bd9209e65c6913f78541f4a1223fc09c
+    name: firstchart
+    type: application
+    urls:
+    - firstchart-0.1.0.tgz
+    version: 0.1.0
+  secondchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-09T23:33:30.568344581+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 0b2c6afb4b8678f92de647fcf1e393caa92cb9340003bf337a9f9c64f7527fc8
+    name: secondchart
+    type: application
+    urls:
+    - secondchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-09T23:33:30.548711773+01:00"
