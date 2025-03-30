@@ -31,4 +31,14 @@ entries:
     urls:
     - secondchart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-09T23:33:30.548711773+01:00" 
+  boardgame:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-03-30T21:54:44.8996546+02:00"
+    description: A Helm chart for deploying the boardgame application
+    digest: 2b96f77889a13b2df0487a6b32f1875b78cffb6821fb8f9e0212455c8e24cae8
+    name: boardgame
+    urls:
+    - https://shashank-30-mishra.github.io/Helm-Chart-gh-repo/boardgame-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-30T21:54:44.7995436+02:00"
