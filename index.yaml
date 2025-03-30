@@ -33,12 +33,21 @@ entries:
     version: 0.1.0
   boardgame:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-03-30T22:57:32.6954991+02:00"
+    description: A Helm chart for deploying the boardgame application
+    digest: 2dc895571fc37896cc4721a24eeb506ab422b123575380d9dd79f460c94db530
+    name: boardgame
+    urls:
+    - https://shashank-30-mishra.github.io/Helm-Chart-gh-repo/boardgame-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-30T22:19:06.2882985+02:00"
+    created: "2025-03-30T22:57:32.6949793+02:00"
     description: A Helm chart for deploying the boardgame application
     digest: 79c6b4f3cdecb19c0a73341753a2cef6857d411c06e735491120d86fcb1c6a3b
     name: boardgame
     urls:
     - https://shashank-30-mishra.github.io/Helm-Chart-gh-repo/boardgame-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-30T22:19:06.2871972+02:00"
+generated: "2025-03-30T22:57:32.6944228+02:00"
